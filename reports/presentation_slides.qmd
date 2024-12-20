@@ -1,0 +1,52 @@
+---
+title: "git & GitHub"
+format:
+  pptx:
+    toc: true
+---
+
+# What is git?
+
+## Purpose
+
+xxx
+
+## How git works
+
+xxx
+
+## Key git commands
+
+xxx
+
+## Typical project flow
+
+xxx
+
+## DOL Dos and Don'ts for using git
+
+xx
+
+## Quick Demo
+
+# Popular git tools
+
+## Different tools
+
+xxx
+
+## GitHub
+
+xxx
+
+## Quick Demo
+
+# git in Practice
+
+## How we use git to work collaboratively
+
+## Demo
+
+```{r}
+
+```
