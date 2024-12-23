@@ -1,43 +1,59 @@
 ---
 title: "git & GitHub"
-format:
-  pptx:
-    toc: true
+format: revealjs
 ---
 
 # What is git?
 
 ## Purpose
 
-xxx
+-   Improve collaboration
+
+-   Version control
+
+-   Document changes to code (or other project materials!)
 
 ## How git works
 
-xxx
-
-## Key git commands
-
-xxx
+[![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
 
 ## Typical project flow
 
-xxx
+-   Initialize Git on a folder, making it a **Repository (or Repo)**
 
-## DOL Dos and Don'ts for using git
+-   Work on your project! Change, add, or delete project files -- these are now considered **Modified**
 
-xx
+-   Select the **Modified** files you want to **Stage**
+
+-   **Staged** files are **Committed**, which prompts Git to store a permanent snapshot of the files
+
+-   When you're ready to integrate your changes into the main project, **Push** your **Committed** changes to the **Main Repository**
+
+## Key git commands
+
+![](git-workflow-image-2.png)
 
 ## Quick Demo
 
 # Popular git tools
 
-## Different tools
+## What is a git tool?
 
-xxx
+Instead of using a command line interface, many coders choose to use web-based interfaces for managing their repositories with git
+
+![](github-logo.png){width="179"}
+
+![](bitbucket-logo.png){width="216"}
+
+![](gitlab-logo.png){width="226"}
 
 ## GitHub
 
 xxx
+
+## Dos and Don'ts for using git & GitHub @ DOL
+
+xx
 
 ## Quick Demo
 
@@ -46,7 +62,3 @@ xxx
 ## How we use git to work collaboratively
 
 ## Demo
-
-```{r}
-
-```
