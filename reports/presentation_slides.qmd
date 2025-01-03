@@ -1,9 +1,11 @@
 ---
-title: "git & GitHub"
+title: "Git & GitHub"
 format: revealjs
+author: Andrea Leitereg & Kevin Reuss
+#fontsize: 28pt
 ---
 
-# What is git?
+# What is Git?
 
 ## Purpose
 
@@ -13,7 +15,7 @@ format: revealjs
 
 -   Document changes to code (or other project materials!)
 
-## How git works
+## How Git works
 
 [![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
 
@@ -29,17 +31,17 @@ format: revealjs
 
 -   When you're ready to integrate your changes into the main project, **Push** your **Committed** changes to the **Main Repository**
 
-## Key git commands
+## Key Git commands
 
 ![](git-workflow-image-2.png)
 
 ## Quick Demo
 
-# Popular git tools
+# Popular Git tools
 
-## What is a git tool?
+## What is a Git tool?
 
-Instead of using a command line interface, many coders choose to use web-based interfaces for managing their repositories with git
+Instead of using a command line interface, many coders choose to use web-based interfaces for managing their repositories with Git
 
 ![](github-logo.png){width="179"}
 
@@ -49,16 +51,38 @@ Instead of using a command line interface, many coders choose to use web-based i
 
 ## GitHub
 
-xxx
+Uploaded files are stored to a **Git repository**
 
-## Dos and Don'ts for using git & GitHub \@ DOL
+Git automatically starts to **track and manage changes** (aka "commits")
 
-xx
+You can perform many actions in GitHub via the browser, but most people work on their own machine and then continually sync local changes to the central repository on GitHub
+
+## GitHub
+
+Once you start to collaborate with others and all need to work on the same repository at the same time, you'll continually:
+
+-   **Pull** all the latest changes made by your collaborators from the remote repository on GitHub
+
+-   **Push** back your own changes to the same remote repository on GitHub
+
+Git figures out how to merge this flow of changes, and GitHub helps you manage the flow through features such as "pull requests"
+
+::: {style="font-size: 50%;"}
+(Source: https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
+:::
+
+## Dos and Don'ts for using Git & GitHub \@ DOL
+
+-   **Do** keep data and other potentially sensitive information stored locally on your machine
+
+-   **Don't** store any data or files containing PII on GitHub
 
 ## Quick Demo
 
-# git in Practice
+Github's Hello World exercise? Or just virtual tour of github.
 
-## How we use git to work collaboratively
+# Git in Practice
+
+## How we use Git to work collaboratively
 
 ## Demo
