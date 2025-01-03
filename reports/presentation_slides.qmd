@@ -51,7 +51,7 @@ Instead of using a command line interface, many coders choose to use web-based i
 
 xxx
 
-## Dos and Don'ts for using git & GitHub @ DOL
+## Dos and Don'ts for using git & GitHub \@ DOL
 
 xx
 
