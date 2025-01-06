@@ -9,7 +9,7 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## Purpose
 
--   Improve collaboration
+-   Facilitate easy collaboration
 
 -   Version control
 
