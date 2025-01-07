@@ -9,9 +9,9 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## Purpose
 
--   Facilitate easy collaboration
+-   Simplify collaboration
 
--   Version control
+-   Ensure version control
 
 -   Document changes to code (or other project materials!)
 
