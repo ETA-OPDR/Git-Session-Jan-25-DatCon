@@ -15,9 +15,13 @@ author: Andrea Leitereg & Kevin Reuss
 
 -   Document changes to code (or other project materials!)
 
+## Why is version control important? {.center}
+
+![](tech-comics-version-control.png){fig-align="center"}
+
 ## How Git works
 
-[![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
+[![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git){fig-align="center"}
 
 ## Typical project flow
 
@@ -33,9 +37,11 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## Key Git commands
 
-![](git-workflow-image-2.png)
+![](git-workflow-image-2.png){fig-align="center"}
 
 ## Quick Demo
+
+Run through basic commands via Git Bash.
 
 # Popular Git tools
 
@@ -79,7 +85,7 @@ Git figures out how to merge this flow of changes, and GitHub helps you manage t
 
 ## Quick Demo
 
-Github's Hello World exercise? Or just virtual tour of github.
+Virtual tour of DASP-OPDR's GitHub page.
 
 # Git in Practice
 
