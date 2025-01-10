@@ -61,7 +61,7 @@ Uploaded files are stored to a **Git repository**
 
 Git automatically starts to **track and manage changes** (aka "commits")
 
-You can perform many actions in GitHub via the browser, but most people work on their own machine and then continually sync local changes to the central repository on GitHub
+You can perform many actions in GitHub via the browser, but most people work on their own machine and then continually sync local changes to the central repository on GitHub (For example, OPDR uses the RStudio Git extension to sync to GitHub)
 
 ## GitHub
 
