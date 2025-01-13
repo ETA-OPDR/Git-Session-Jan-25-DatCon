@@ -9,11 +9,11 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## Purpose
 
--   Simplify collaboration
+-   **Efficiency:** Simplify collaboration
 
--   Ensure version control
+-   **Reproducibility:** Ensure version control
 
--   Document changes to code (or other project materials!)
+-   **Transparency:** Document changes to code (or other project materials!)
 
 ## Why is version control important? {.center}
 
@@ -83,9 +83,13 @@ Git figures out how to merge this flow of changes, and GitHub helps you manage t
 
 -   **Don't** store any data or files containing PII on GitHub
 
+## How do Git and GitHub fit into the data project lifecycle?
+
+Reference Dave's visual
+
 ## Quick Demo
 
-Virtual tour of DASP-OPDR's GitHub page.
+Virtual tour of DASP-OPDR's GitHub page or "Hello World" exercise.
 
 # Git in Practice
 
