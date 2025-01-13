@@ -9,11 +9,14 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## Purpose
 
--   **Efficiency:** Simplify collaboration
+**Efficiency:** Simplify collaboration
 
--   **Reproducibility:** Ensure version control
 
--   **Transparency:** Document changes to code (or other project materials!)
+**Reproducibility:** Ensure version control
+
+
+**Transparency:** Document changes to code (or other project materials!)
+
 
 ## Why is version control important? {.center}
 
