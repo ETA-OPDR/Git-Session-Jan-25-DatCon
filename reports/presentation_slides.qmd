@@ -21,7 +21,7 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## How Git works
 
-[![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git){fig-align="center"}
+[![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
 
 ## Typical project flow
 
@@ -61,7 +61,7 @@ Uploaded files are stored to a **Git repository**
 
 Git automatically starts to **track and manage changes** (aka "commits")
 
-You can perform many actions in GitHub via the browser, but most people work on their own machine and then continually sync local changes to the central repository on GitHub (For example, OPDR uses the RStudio Git extension to sync to GitHub)
+You can perform many actions in GitHub via the browser, but most people **work on their own machine** and then continually **sync local changes** to the central repository on GitHub (For example, OPDR uses the RStudio Git extension to sync to GitHub)
 
 ## GitHub
 
