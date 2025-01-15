@@ -9,13 +9,13 @@ author: Andrea Leitereg & Kevin Reuss
 
 ## 
 
-![](git-logo.png){fig-align="center"}
+![](git-logo.png){fig-align="center" width="300"}
 
-Git is a [**distributed version control system**]{.ul} that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively.
+Git is a [**distributed version control system**]{.underline} that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively.
 
 ## Distributed version control
 
-![](distributed-version-control-diagram.png)
+![](distributed-version-control-diagram.png){fig-align="center"}
 
 ## Why is version control important? {.center}
 
@@ -57,7 +57,7 @@ Run through basic commands via Git Bash.
 
 ## What is a Git tool?
 
-Instead of using a command line interface, many coders choose to use web-based interfaces for managing their repositories with Git
+Git tools are web-based interfaces for managing projects and repositories with Git
 
 ![](github-logo.png){width="179"}
 
@@ -65,27 +65,25 @@ Instead of using a command line interface, many coders choose to use web-based i
 
 ![](gitlab-logo.png){width="226"}
 
-## GitHub
+# Intro to GitHub
+
+## 
 
 Uploaded files are stored to a **Git repository**
 
+![](git-hub-image-1.png)
+
+## 
+
 Git automatically starts to **track and manage changes** (aka "commits")
 
-You can perform many actions in GitHub via the browser, but most people **work on their own machine** and then continually **sync local changes** to the central repository on GitHub (For example, OPDR uses the RStudio Git extension to sync to GitHub)
+![](git-hub-image-2.png)
 
-## GitHub
+## 
 
-Once you start to collaborate with others and all need to work on the same repository at the same time, you'll continually:
+You can perform many actions in GitHub via the browser, but most people **work on a copy of the repository on their own machine (git pull)** and then continually **sync local changes** **to the central repository** **(git push)** on GitHub
 
--   **Pull** all the latest changes made by your collaborators from the remote repository on GitHub
-
--   **Push** back your own changes to the same remote repository on GitHub
-
-Git figures out how to merge this flow of changes, and GitHub helps you manage the flow through features such as "pull requests"
-
-::: {style="font-size: 50%;"}
-(Source: https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
-:::
+![](distributed-version-control-diagram-2.png){fig-align="center"}
 
 ## Dos and Don'ts for using Git & GitHub \@ DOL
 
@@ -95,7 +93,7 @@ Git figures out how to merge this flow of changes, and GitHub helps you manage t
 
 ## How do Git and GitHub fit into the data project lifecycle?
 
-Reference Dave's visual
+Review Dave's visual with Git/GitHub steps
 
 ## Quick Demo
 
