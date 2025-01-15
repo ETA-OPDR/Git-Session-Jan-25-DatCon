@@ -81,7 +81,7 @@ Git automatically starts to **track and manage changes** (aka "commits")
 
 ## 
 
-You can perform many actions in GitHub via the browser, but most people **work on a copy of the repository on their own machine (git pull)** and then continually **sync local changes** **to the central repository** **(git push)** on GitHub
+You can perform many actions in GitHub via the browser, but most people **work on a copy of the repository on their own machine *(git pull)*** and then continually **sync local changes** **to the central repository** ***(git push)*** on GitHub
 
 ![](distributed-version-control-diagram-2.png){fig-align="center"}
 
@@ -90,6 +90,8 @@ You can perform many actions in GitHub via the browser, but most people **work o
 -   **Do** keep data and other potentially sensitive information stored locally on your machine
 
 -   **Don't** store any data or files containing PII on GitHub
+
+-   *When in doubt, **Do** keep repositories private (Dave going to check on this?)*
 
 ## How do Git and GitHub fit into the data project lifecycle?
 
