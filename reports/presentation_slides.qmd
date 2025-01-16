@@ -11,7 +11,7 @@ author: Andrea Leitereg & Kevin Reuss
 
 ![](git-logo.png){fig-align="center" width="300"}
 
-Git is a [**distributed version control system**]{.underline} that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively.
+Git is a [**distributed version control system**]{.ul} that tracks versions of files.
 
 ## Distributed version control
 
@@ -33,7 +33,7 @@ Document changes to code (or other project materials!)
 
 [![](git-workflow-image-1.png)](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
 
-## Typical project flow
+## Typical Git workflow
 
 -   Initialize Git on a folder, making it a **Repository (or Repo)**
 
@@ -51,7 +51,7 @@ Document changes to code (or other project materials!)
 
 ## Quick Demo
 
-Run through basic commands via Git Bash.
+Basic commands with Git Bash!
 
 # Popular Git tools
 
@@ -91,7 +91,7 @@ You can perform many actions in GitHub via the browser, but most people **work o
 
 -   **Don't** store any data or files containing PII on GitHub
 
--   *When in doubt, **Do** keep repositories private (Dave going to check on this?)*
+-   *When in doubt, **Do** keep repositories private (Dave going to check on this?\*\*\*)*
 
 ## How do Git and GitHub fit into the data project lifecycle?
 
@@ -99,7 +99,7 @@ Review Dave's visual with Git/GitHub steps
 
 ## Quick Demo
 
-Virtual tour of DASP-OPDR's GitHub page or "Hello World" exercise.
+Hello, world! in GitHub
 
 # Git in Practice
 
