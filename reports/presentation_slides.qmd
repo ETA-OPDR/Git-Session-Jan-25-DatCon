@@ -11,7 +11,7 @@ author: Andrea Leitereg & Kevin Reuss
 
 ![](git-logo.png){fig-align="center" width="300"}
 
-Git is a [**distributed version control system**]{.ul} that tracks versions of files.
+Git is a [**distributed version control system**]{.underline} that tracks versions of files.
 
 ## Distributed version control
 
