@@ -3,7 +3,6 @@ title: "Git & GitHub"
 format: 
   revealjs:
     self-contained: true
-  revealjs:
     theme: default
 author: Andrea Leitereg & Kevin Reuss
 
