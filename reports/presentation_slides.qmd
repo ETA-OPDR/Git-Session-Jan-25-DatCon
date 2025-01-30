@@ -15,7 +15,7 @@ author: Andrea Leitereg & Kevin Reuss
 
 ![](git-logo.png){fig-align="center" width="300"}
 
-Git is a [**distributed version control system**]{.underline} that tracks versions of files.
+Git is a free [**distributed version control system**]{.underline} that tracks versions of files.
 
 ## Distributed version control
 
@@ -91,15 +91,15 @@ You can perform many actions in GitHub via the browser, but most people **work o
 
 ## Dos and Don'ts for using Git & GitHub \@ DOL
 
--   **Do** keep data and other potentially sensitive information stored locally on your machine
+-   **Do** keep data and other potentially sensitive information stored [locally]{.underline} on your machine
 
 -   **Don't** store any data or files containing PII on GitHub
 
--   *When in doubt, **Do** keep repositories private (Dave going to check on this?\*\*\*)*
+-   **Do** keep repositories private unless
 
-## How do Git and GitHub fit into the data project lifecycle?
+## Git & the Data Project Lifecycle
 
-Review Dave's visual with Git/GitHub steps
+![](Data%20Analysis%20Workflow%20Matrix%20-%207%20Steps%20-%20cropped.PNG)
 
 ## Quick Demo
 
