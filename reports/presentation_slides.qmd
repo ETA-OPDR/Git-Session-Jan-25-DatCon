@@ -1,7 +1,11 @@
 ---
 title: "Git & GitHub"
-format: revealjs
+format:
+  revealjs:
+    theme: default
+
 author: Andrea Leitereg & Kevin Reuss
+
 #fontsize: 28pt
 ---
 
@@ -101,8 +105,28 @@ Review Dave's visual with Git/GitHub steps
 
 Hello, world! in GitHub
 
-# Git in Practice
 
-## How we use Git to work collaboratively
+
+## What will be covered in the demonstration 
+::: {.incremental} 
+-  Overview of how we typically organize our projects
+-  How to get started with a project in Git
+-  How to work collaboratively on a project
+-  A few other considerations 
+:::
+
+## General principles that inform project organization
+::: {.incremental}
+- We want our projects to be:
+  - **Reproducible and repeatable**
+  - **Replicable and transparent**
+  - **Collaborative**
+  - **Accessible**
+  - **Well-documented**
+- Maintaining good project orentation gets you most of the way there for all of these!   
+:::
+
+## Full Chart of Project Organization
+![](full-project-org.png)
 
 ## Demo
