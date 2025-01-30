@@ -1,6 +1,8 @@
 ---
 title: "Git & GitHub"
-format: revealjs
+format: 
+  revealjs:
+    self-contained: true
 author: Andrea Leitereg & Kevin Reuss
 #fontsize: 28pt
 ---
@@ -91,7 +93,7 @@ You can perform many actions in GitHub via the browser, but most people **work o
 
 -   **Don't** store any data or files containing PII on GitHub
 
--   **Do** keep repositories private unless
+-   **Do** keep repositories private (with a caveat)
 
 ## Git & the Data Project Lifecycle
 
