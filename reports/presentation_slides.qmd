@@ -123,7 +123,7 @@ Hello, world! in GitHub
   - **Collaborative**
   - **Accessible**
   - **Well-documented**
-- Maintaining good project orentation gets you most of the way there for all of these!   
+- Having your project organized gets you most of the way there!   
 :::
 
 ## Full Chart of Project Organization
