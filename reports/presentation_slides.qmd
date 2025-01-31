@@ -105,14 +105,14 @@ You can perform many actions in GitHub via the browser, but most people **work o
 
 Hello, world! in GitHub
 
-
+# Git in Practice
 
 ## What will be covered in the demonstration 
 ::: {.incremental} 
--  Overview of how we typically organize our projects
--  How to get started with a project in Git
+-  Overview of how we (i.e., OPDR/DASP) typically organize our projects
+-  How to get started with a new project 
 -  How to work collaboratively on a project
--  A few other considerations 
+-  A few other considerations and tips 
 :::
 
 ## General principles that inform project organization
@@ -126,7 +126,69 @@ Hello, world! in GitHub
 - Having your project organized gets you most of the way there!   
 :::
 
-## Full Chart of Project Organization
-![](full-project-org.png)
+## The stuff in a data project
+![](project-contents.png){height=650}
+
+## How those contents can be organized
+![](project-folders.png){height=600}
+
+## Overview of the organization of project files
+![](full-project-org.png){height=550}
+
+## Project files with a single shared file
+![](project-single-file.png){height=550}
+
+## Project with main file and local copies
+![](project-multiple-files.png){height=550}
 
 ## Demo
+
+## Final thoughts and tips
+
+::: {.incremental}
+- Thoughtful project organization is a key towards maintaining best practices
+- Try to develop a structure that works across different types of projects
+- When using Git, remember to commit, push, and pull often
+- Use Git more holistically to manage your project, not just for script version control
+  - e.g., also maintain your environment (renv in RStudio)
+:::
+
+
+## Homework
+Complete the following tasks to put this knowledge into practice.
+
+**Everyone should at least do the first item**
+
+## Homework #1
+- Assess your default project structure and consider how it could be improved to align with the principles discussed during this DatCon
+- Assess what analysis tools you use and if Git could be incorporated with your work
+- If Git could be incorporated, go on to Homework #2
+
+## Homework #2
+Put in a request to have Git installed on your machine (see the handout for more details)
+
+## Homework #3
+Create a personal GitHub account and create an organization for you team
+
+## Homework #4
+Create a new repository in GitHub  
+
+## Homework #5
+Connect your local machine to GitHub or other Git tool. If using RStudio, see the handout for resources that will guide you.
+
+## Homework #6
+If using R, Create a new R Project that is connected to the repository you created in GitHub
+
+## Homework #7
+Write some code
+
+## Homework #8
+Commit and push your code to your repo
+
+## Homework #9
+Review the handout to learn more about renv and other resources that will help you manage your project
+
+
+
+
+
