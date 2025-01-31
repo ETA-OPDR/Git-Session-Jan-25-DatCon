@@ -8,16 +8,26 @@ library(tidyr)
 library(ggplot2)
 library(opdR)
 
+
+
+###################################################################################
 ## Load the data
 
 pet_data_path <- here("data", "raw", "household_pets.csv")
+
+# copy the data from the shared drive to your local machine
 copy_from_SP(pet_data_path, office = "DASP")
 
 pet_data <- read_csv(pet_data_path)
+
+# function to copy the data to the shared drive for others to access
 copy_to_SP(pet_data_path, office = "DASP")
 
 
-## Clean the data
+
+###################################################################################
+## Clean and prep the data
+
 
 pet_data_clean <- pet_data %>%
   mutate(Category = trimws(Category)) %>%
@@ -33,6 +43,9 @@ pet_data_clean <- pet_data %>%
          Area = factor(Area, levels = c('National', 'Texas', 'California', 'New York')))
 
 
+###################################################################################
+## Plot the data
+
 
 ggplot(pet_data_clean, aes(fill=pet_type, y=pct, x=Area)) +
   geom_bar(position='dodge', stat='identity') +
@@ -41,7 +54,16 @@ ggplot(pet_data_clean, aes(fill=pet_type, y=pct, x=Area)) +
         plot.subtitle = element_text(size=16, face='bold'),
         axis.title = element_blank(),
         legend.title = element_blank()) +
-  scale_fill_manual('Position', values=c('blue', 'red', 'gray')) +
-  ggtitle('Do More Households Have a Dog or Cat?',
+  scale_fill_manual('Position', values=c('green', 'red', 'gray')) +
+  ggtitle('Do More HHouseholds Have a Dog or Cat?',
           subtitle = 'Percent of Households With a Pet by Pet Type') +
   labs(caption = 'Data Source: U.S. Census Bureau, American Housing Survey 2021')
+
+
+
+
+
+
+
+
+
