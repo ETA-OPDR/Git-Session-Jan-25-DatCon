@@ -53,8 +53,8 @@ ggplot(pet_data_clean, aes(fill=pet_type, y=pct, x=Area)) +
         plot.subtitle = element_text(size=16, face='bold'),
         axis.title = element_blank(),
         legend.title = element_blank()) +
-  scale_fill_manual('Position', values=c('green', 'red', 'gray')) +
-  ggtitle('Do More HHouseholds Have a Dog or Cat?',
+  scale_fill_manual('Position', values=c('blue', 'red', 'gray')) +
+  ggtitle('Do More Households Have a Dog or Cat?',
           subtitle = 'Percent of Households With a Pet by Pet Type') +
   labs(caption = 'Data Source: U.S. Census Bureau, American Housing Survey 2021')
 
